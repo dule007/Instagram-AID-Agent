@@ -1,0 +1,2 @@
+./instagram_agent/run_dashboard.sh
+./instagram_agent/run_dashboard.sh

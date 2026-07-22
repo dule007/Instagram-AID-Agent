@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B2035"/>
+      <stop offset="1" stop-color="#07111F"/>
+    </linearGradient>
+    <pattern id="sgrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#24405D" stroke-opacity="0.32"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#sbg)"/>
+  <rect width="1080" height="1920" fill="url(#sgrid)"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="90" y="260" fill="#F4F7FB" font-size="25" font-weight="700" letter-spacing="2">AID / AUTOINSIGHT DATA</text>
+    <rect x="90" y="310" width="360" height="46" rx="23" fill="#0D1B2E" stroke="#20D3EE"/>
+    <text x="112" y="340" fill="#20D3EE" font-size="17" font-weight="700" letter-spacing="3">MARKET SIGNAL</text>
+
+    <text x="90" y="545" fill="#F4F7FB" font-size="72" font-weight="700">
+      <tspan x="90">Koja odluka</tspan>
+      <tspan x="90" dy="88">danas čeka</tspan>
+      <tspan x="90" dy="88" fill="#20D3EE">tržišni signal?</tspan>
+    </text>
+
+    <path d="M100 900 C270 790, 380 970, 540 840 S820 760, 980 850" fill="none" stroke="#20D3EE" stroke-width="6"/>
+    <g fill="#07111F" stroke="#20D3EE" stroke-width="5">
+      <circle cx="100" cy="900" r="14"/><circle cx="540" cy="840" r="14"/><circle cx="980" cy="850" r="14"/>
+    </g>
+
+    <text x="90" y="1065" fill="#9CB0C8" font-size="21" font-weight="700" letter-spacing="2">DODAJ INSTAGRAM POLL STICKER</text>
+    <g transform="translate(90 1120)">
+      <rect width="900" height="120" rx="28" fill="#F4F7FB"/>
+      <text x="42" y="75" fill="#07111F" font-size="30" font-weight="700">Cijena ili prodaja</text>
+    </g>
+    <g transform="translate(90 1270)">
+      <rect width="900" height="120" rx="28" fill="#F4F7FB"/>
+      <text x="42" y="75" fill="#07111F" font-size="30" font-weight="700">Nabava ili zalihe</text>
+    </g>
+    <g transform="translate(90 1420)">
+      <rect width="900" height="120" rx="28" fill="#F4F7FB"/>
+      <text x="42" y="75" fill="#07111F" font-size="30" font-weight="700">Vrijednost ili rizik</text>
+    </g>
+
+    <text x="90" y="1665" fill="#F4F7FB" font-size="27" font-weight="700">Odgovorite — sljedeći Story pokazuje signal.</text>
+    <text x="90" y="1715" fill="#9CB0C8" font-size="20">autoinsightdata.com</text>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D1B2A"/><stop offset="1" stop-color="#13243A"/></linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#283C58" stroke-opacity=".28"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#bg)" opacity="1"/><rect width="1080" height="1350" fill="url(#grid)"/><rect width="26" height="1350" fill="#F5A623"/><circle cx="930" cy="400" r="250" fill="#3B9DD6" opacity=".06"/>
+  <rect width="668" height="8" fill="#F5A623"/><rect x="668" width="412" height="8" fill="#3B9DD6"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif"><text x="76" y="86" fill="#E8EDF4" font-size="21" font-weight="800" letter-spacing="2.4">AID / DECISION LAYER</text>
+    <text x="76" y="250" fill="#94A6BE" font-size="30" font-weight="700" letter-spacing="5">PODATAK</text>
+    <text x="72" y="425" fill="#E8EDF4" font-size="126" font-weight="800">NIJE</text>
+    <rect x="68" y="468" width="620" height="178" rx="22" fill="#F5A623" filter="url(#shadow)"/>
+    <text x="110" y="586" fill="#0D1B2A" font-size="112" font-weight="900">ODLUKA.</text>
+    <path d="M760 252C912 330 824 472 952 548S893 807 991 894" fill="none" stroke="#3B9DD6" stroke-width="12"/><circle cx="760" cy="252" r="20" fill="#3B9DD6"/><circle cx="952" cy="548" r="20" fill="#F5A623"/><circle cx="991" cy="894" r="20" fill="#3B9DD6"/>
+    <text x="76" y="760" fill="#E8EDF4" font-size="31" font-weight="700">Što se događa?</text><text x="76" y="804" fill="#94A6BE" font-size="23">podatak</text>
+    <text x="76" y="890" fill="#E8EDF4" font-size="31" font-weight="700">Što to znači za KPI?</text><text x="76" y="934" fill="#94A6BE" font-size="23">signal</text>
+    <text x="76" y="1020" fill="#F5A623" font-size="31" font-weight="800">Što sada treba učiniti?</text><text x="76" y="1064" fill="#94A6BE" font-size="23">odluka</text>
+    <line x1="76" y1="1190" x2="1004" y2="1190" stroke="#283C58" stroke-width="2"/>
+    <text x="76" y="1235" fill="#E8EDF4" font-size="21" font-weight="700">Prepoznajete li izvještaj koji još čeka odluku?</text>
+    <text x="76" y="1286" fill="#94A6BE" font-size="18">autoinsightdata.com</text><text x="1004" y="1286" text-anchor="end" fill="#F5A623" font-size="18" font-weight="800">AID-2608-F01</text>
+  </g></svg>

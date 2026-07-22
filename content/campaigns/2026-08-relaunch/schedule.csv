@@ -1,0 +1,21 @@
+id,date,time,timezone,channel,asset,theme,cta,status
+AID-2608-S01,2026-07-20,19:45,Europe/Zagreb,story,stories/01-izvjestaj-ili-odluka.png,Teaser: izvještaj ili odluka,Poll,approved
+AID-2608-F01,2026-07-22,10:15,Europe/Zagreb,feed,posts/01-podatak-nije-odluka.png,Repozicioniranje,Prepoznajete li problem,review_required
+AID-2608-S02,2026-08-05,12:30,Europe/Zagreb,story,stories/02-cetiri-koraka.png,Metoda: četiri koraka,Question,draft
+AID-2608-F02,2026-08-07,09:15,Europe/Zagreb,feed,posts/02-cetiri-koraka-do-poteza.png,Metoda,Pogledajte signal,draft
+AID-2608-S03,2026-08-07,12:30,Europe/Zagreb,story,stories/03-sto-je-izlaz.png,Distribucija feeda,Link,draft
+AID-2608-S04,2026-08-10,09:15,Europe/Zagreb,story,stories/04-prodaja-nula.png,Teaser: izgubljena potražnja,Poll,draft
+AID-2608-F03,2026-08-11,09:15,Europe/Zagreb,feed,posts/03-prodaja-nula-potražnja-upitnik.png,Autodijelovi,Odaberite grupu i regiju,draft
+AID-2608-S05,2026-08-12,12:30,Europe/Zagreb,story,stories/05-gdje-je-dio.png,Zaliha i lokacija,Poll,draft
+AID-2608-F04,2026-08-14,09:15,Europe/Zagreb,feed,posts/04-pet-odluka-po-artiklu.png,Autodijelovi,Pogledajte signal,draft
+AID-2608-S06,2026-08-14,12:30,Europe/Zagreb,story,stories/06-pet-odluka.png,Distribucija feeda,Question,draft
+AID-2608-S07,2026-08-17,09:15,Europe/Zagreb,story,stories/07-ista-drzava.png,Teaser: lokalni kontekst,Poll,draft
+AID-2608-F05,2026-08-18,09:15,Europe/Zagreb,feed,posts/05-ista-drzava-drugaciji-asortiman.png,Regionalni asortiman,Zatražite lokalni pregled,draft
+AID-2608-S08,2026-08-19,12:30,Europe/Zagreb,story,stories/08-kapital-ceka.png,Stock aging,Question,draft
+AID-2608-F06,2026-08-21,09:15,Europe/Zagreb,feed,posts/06-koliko-dugo-kapital-ceka.png,Flote i zalihe,Prepoznajete li zonu čekanja,draft
+AID-2608-S09,2026-08-21,12:30,Europe/Zagreb,story,stories/09-vrijeme-je-signal.png,Distribucija feeda,Link,draft
+AID-2608-S10,2026-08-24,09:15,Europe/Zagreb,story,stories/10-vrijednost-se-mijenja.png,Teaser: vrednovanje,Poll,draft
+AID-2608-F07,2026-08-25,09:15,Europe/Zagreb,feed,posts/07-vrijednost-nije-staticna.png,Leasing i flote,Dogovorite tržišni pregled,draft
+AID-2608-S11,2026-08-26,12:30,Europe/Zagreb,story,stories/11-jedan-kpi.png,Pilot,Question,draft
+AID-2608-F08,2026-08-28,09:15,Europe/Zagreb,feed,posts/08-jedan-slucaj-jedan-kpi.png,Pilot,Dogovorite poslovni prikaz,draft
+AID-2608-S12,2026-08-28,12:30,Europe/Zagreb,story,stories/12-dogovorite-prikaz.png,Završni CTA,Link,draft

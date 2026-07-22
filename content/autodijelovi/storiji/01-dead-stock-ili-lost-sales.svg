@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10283D"/><stop offset="1" stop-color="#07111F"/></linearGradient><pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#24405D" stroke-opacity=".35"/></pattern></defs>
+  <image xlink:href="../visuals/warehouse-brake-parts.png" width="1080" height="1920" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1080" height="1920" fill="url(#bg)" opacity=".72"/><rect width="1080" height="1920" fill="url(#grid)"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="90" y="260" fill="#F4F7FB" font-size="24" font-weight="700" letter-spacing="2">AID / PARTS INTELLIGENCE</text>
+    <text x="90" y="410" fill="#FFB547" font-size="21" font-weight="700" letter-spacing="4">PITANJE ZA NABAVU</text>
+    <text x="90" y="590" fill="#F4F7FB" font-size="74" font-weight="700"><tspan x="90">Gdje vam</tspan><tspan x="90" dy="90">više curi</tspan><tspan x="90" dy="90" fill="#20D3EE">kapital?</tspan></text>
+    <g transform="translate(90 950)">
+      <rect width="900" height="220" rx="32" fill="#0D1B2E" stroke="#FFB547" stroke-width="3"/>
+      <text x="52" y="88" fill="#FFB547" font-size="32" font-weight="700">VIŠAK / DEAD STOCK</text><text x="52" y="142" fill="#9CB0C8" font-size="22">spore reference bez regionalnog opravdanja</text>
+    </g>
+    <g transform="translate(90 1210)">
+      <rect width="900" height="220" rx="32" fill="#0D1B2E" stroke="#20D3EE" stroke-width="3"/>
+      <text x="52" y="88" fill="#20D3EE" font-size="32" font-weight="700">LOST SALES</text><text x="52" y="142" fill="#9CB0C8" font-size="22">brzi dio nije bio dostupan na pravoj lokaciji</text>
+    </g>
+    <text x="90" y="1555" fill="#9CB0C8" font-size="21" font-weight="700" letter-spacing="3">DODAJ INSTAGRAM POLL STICKER</text>
+    <text x="90" y="1680" fill="#F4F7FB" font-size="28" font-weight="700">Odgovor određuje sljedeći tržišni signal.</text>
+    <text x="90" y="1740" fill="#9CB0C8" font-size="20">autoinsightdata.com</text>
+  </g>
+</svg>

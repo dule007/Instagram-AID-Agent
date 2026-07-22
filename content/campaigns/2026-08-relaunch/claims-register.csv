@@ -1,0 +1,8 @@
+claim_id,content_ids,claim,source,accessed,status,note
+C-001,"F01,F02,S01,S02,S03","AID pretvara tržišne tehničke i operativne podatke u operativni signal i odluku","https://www.autoinsightdata.com/; docs/brand_positioning.md",2026-07-20,verified,"Pozicioniranje potvrđeno webom i internim kanonskim dokumentom"
+C-002,"F01,F02,F08,S02,S11,S12","AID je tržišni i decision-support sloj i ne zamjenjuje core sustave","docs/brand_positioning.md; docs/architecture.md",2026-07-20,verified,"Kanonska granica proizvoda"
+C-003,"F03,F04,F05,S04,S05,S06,S07","Potražnja izgubljena zbog nedostupnosti nije vidljiva samo iz povijesti prodaje; odluke uključuju nabavi zadrži prebaci centraliziraj zaustavi","inputs_docuemtns/AID_Inteligentna_nabavka_autodijelova_BiH.pdf",2026-07-20,verified,"Izravno iz odobrenog izvornog materijala; bez kvantitativnih rezultata"
+C-004,"F05,S07","Lokalni vozni park i kontekst mogu tražiti različit asortiman po lokaciji","inputs_docuemtns/AID_Inteligentna_nabavka_autodijelova_BiH.pdf",2026-07-20,verified,"Use case iz brošure; formulirano kao odluka a ne rezultat"
+C-005,"F06,S08,S09","Vrijeme u zalihi ili portfelju signalizira potrebu za pregledom odluke","https://www.autoinsightdata.com/solutions; docs/content_strategy.md",2026-07-20,verified,"Kvalitativna operativna poruka bez brojke"
+C-006,"F07,S10","Tržišna vrijednost vozila mijenja se s tržišnim kontekstom i služi kao decision-support za leasing i flote","https://www.autoinsightdata.com/; docs/brand_positioning.md",2026-07-20,verified,"Bez obećanja preciznosti ili rezultata"
+C-007,"F08,S11,S12","Početni prikaz ili pilot treba ograničiti na jedan slučaj i KPI","https://www.autoinsightdata.com/; docs/brand_positioning.md",2026-07-20,verified,"Pilot-first CTA; trajanje nije navedeno"

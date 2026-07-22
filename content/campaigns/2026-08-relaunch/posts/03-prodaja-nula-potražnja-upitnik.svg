@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D1B2A"/><stop offset="1" stop-color="#13243A"/></linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#283C58" stroke-opacity=".28"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+<image href="../../../autodijelovi/visuals/warehouse-brake-parts.png" width="1080" height="1350" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1080" height="1350" fill="url(#bg)" opacity=".76"/><rect width="1080" height="1350" fill="url(#grid)"/>
+  <rect width="668" height="8" fill="#F5A623"/><rect x="668" width="412" height="8" fill="#3B9DD6"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif"><text x="76" y="86" fill="#E8EDF4" font-size="21" font-weight="800" letter-spacing="2.4">AID / PARTS INTELLIGENCE</text>
+    <rect x="70" y="180" width="650" height="330" rx="28" fill="#0D1B2A" fill-opacity=".86" stroke="#283C58"/>
+    <text x="110" y="300" fill="#E8EDF4" font-size="86" font-weight="900">Prodaja = 0</text><text x="110" y="408" fill="#F5A623" font-size="86" font-weight="900">Potražnja = ?</text>
+    <text x="780" y="455" fill="#3B9DD6" opacity=".72" font-size="360" font-weight="900">?</text>
+    <rect x="76" y="680" width="928" height="250" rx="28" fill="#13243A" fill-opacity=".93" stroke="#F5A623"/>
+    <text x="116" y="756" fill="#F5A623" font-size="23" font-weight="900" letter-spacing="2">NEVIDLJIVA POTRAŽNJA</text><text x="116" y="820" fill="#E8EDF4" font-size="34" font-weight="800">Dio nije bio dostupan.</text><text x="116" y="872" fill="#E8EDF4" font-size="34" font-weight="800">Kupac nije ostavio prodajni trag.</text>
+    <path d="M116 1010H900" stroke="#3B9DD6" stroke-width="8"/><path d="M900 1010l-32-22v44z" fill="#3B9DD6"/><text x="116" y="1065" fill="#94A6BE" font-size="23">vozni park + fitment + dostupnost = kvalitetniji signal</text>
+    <line x1="76" y1="1190" x2="1004" y2="1190" stroke="#283C58" stroke-width="2"/>
+    <text x="76" y="1235" fill="#E8EDF4" font-size="21" font-weight="700">Odaberite jednu grupu dijelova i jednu regiju →</text>
+    <text x="76" y="1286" fill="#94A6BE" font-size="18">autoinsightdata.com</text><text x="1004" y="1286" text-anchor="end" fill="#F5A623" font-size="18" font-weight="800">AID-2608-F03</text>
+  </g></svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#10283D"/>
+    </linearGradient>
+    <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#24405D"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1350" fill="url(#bg2)"/>
+  <rect width="1080" height="1350" fill="url(#dots)"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="76" y="102" fill="#F4F7FB" font-size="25" font-weight="700" letter-spacing="2">AID / AUTOINSIGHT DATA</text>
+    <text x="76" y="250" fill="#9CB0C8" font-size="24" font-weight="700" letter-spacing="3">DECISION LAYER</text>
+    <text x="76" y="354" fill="#F4F7FB" font-size="79" font-weight="700">
+      <tspan x="76">Ne još jedan</tspan>
+      <tspan x="76" dy="94">dashboard.</tspan>
+    </text>
+    <text x="76" y="578" fill="#20D3EE" font-size="62" font-weight="700">Signal → odluka.</text>
+
+    <g transform="translate(76 680)">
+      <g>
+        <rect width="288" height="222" rx="24" fill="#0D1B2E" stroke="#24405D"/>
+        <circle cx="48" cy="48" r="22" fill="#10283D" stroke="#20D3EE"/>
+        <text x="48" y="56" text-anchor="middle" fill="#20D3EE" font-size="24" font-weight="700">1</text>
+        <text x="30" y="121" fill="#F4F7FB" font-size="25" font-weight="700">Što korigirati?</text>
+        <text x="30" y="164" fill="#9CB0C8" font-size="18">Cijena i prodaja</text>
+      </g>
+      <g transform="translate(320 0)">
+        <rect width="288" height="222" rx="24" fill="#0D1B2E" stroke="#24405D"/>
+        <circle cx="48" cy="48" r="22" fill="#10283D" stroke="#20D3EE"/>
+        <text x="48" y="56" text-anchor="middle" fill="#20D3EE" font-size="24" font-weight="700">2</text>
+        <text x="30" y="121" fill="#F4F7FB" font-size="25" font-weight="700">Što nabaviti?</text>
+        <text x="30" y="164" fill="#9CB0C8" font-size="18">Asortiman i zalihe</text>
+      </g>
+      <g transform="translate(640 0)">
+        <rect width="288" height="222" rx="24" fill="#0D1B2E" stroke="#24405D"/>
+        <circle cx="48" cy="48" r="22" fill="#10283D" stroke="#FFB547"/>
+        <text x="48" y="56" text-anchor="middle" fill="#FFB547" font-size="24" font-weight="700">3</text>
+        <text x="30" y="121" fill="#F4F7FB" font-size="25" font-weight="700">Gdje je rizik?</text>
+        <text x="30" y="164" fill="#9CB0C8" font-size="18">Vrijednost i portfelj</text>
+      </g>
+    </g>
+
+    <rect x="76" y="1000" width="928" height="142" rx="28" fill="#20D3EE"/>
+    <text x="116" y="1060" fill="#07111F" font-size="26" font-weight="700">Prvo provjerite signal.</text>
+    <text x="116" y="1104" fill="#07111F" font-size="26" font-weight="700">Zatim širite sustav.</text>
+    <circle cx="924" cy="1071" r="30" fill="#07111F"/>
+    <path d="M908 1071h32m-11-11 11 11-11 11" fill="none" stroke="#20D3EE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <text x="76" y="1274" fill="#9CB0C8" font-size="20">autoinsightdata.com</text>
+  </g>
+</svg>

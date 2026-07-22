@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D1B2A"/><stop offset="1" stop-color="#13243A"/></linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#283C58" stroke-opacity=".28"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#bg)" opacity="1"/><rect width="1080" height="1350" fill="url(#grid)"/><path d="M0 1020L1080 790V1350H0Z" fill="#3B9DD6" opacity=".04"/>
+  <rect width="668" height="8" fill="#F5A623"/><rect x="668" width="412" height="8" fill="#3B9DD6"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif"><text x="76" y="86" fill="#E8EDF4" font-size="21" font-weight="800" letter-spacing="2.4">AID / KAKO RADI</text>
+    <text x="76" y="245" fill="#E8EDF4" font-size="63" font-weight="800">Od raspršenih izvora</text><text x="76" y="325" fill="#F5A623" font-size="63" font-weight="800">do jednog poteza.</text>
+    <path d="M150 500C270 500 270 700 390 700S530 500 650 500S780 700 900 700" fill="none" stroke="#283C58" stroke-width="12" stroke-linecap="round"/><circle cx="150" cy="500" r="74" fill="#13243A" stroke="#3B9DD6" stroke-width="6"/><text x="150" y="514" text-anchor="middle" fill="#3B9DD6" font-size="42" font-weight="900">1</text><text x="150" y="626" text-anchor="middle" fill="#E8EDF4" font-size="21" font-weight="800">SPOJI</text><circle cx="390" cy="700" r="74" fill="#13243A" stroke="#3B9DD6" stroke-width="6"/><text x="390" y="714" text-anchor="middle" fill="#3B9DD6" font-size="42" font-weight="900">2</text><text x="390" y="826" text-anchor="middle" fill="#E8EDF4" font-size="21" font-weight="800">STANDARDIZIRAJ</text><circle cx="650" cy="500" r="74" fill="#13243A" stroke="#3B9DD6" stroke-width="6"/><text x="650" y="514" text-anchor="middle" fill="#3B9DD6" font-size="42" font-weight="900">3</text><text x="650" y="626" text-anchor="middle" fill="#E8EDF4" font-size="21" font-weight="800">SIGNAL</text><circle cx="900" cy="700" r="74" fill="#13243A" stroke="#F5A623" stroke-width="6"/><text x="900" y="714" text-anchor="middle" fill="#F5A623" font-size="42" font-weight="900">4</text><text x="900" y="826" text-anchor="middle" fill="#E8EDF4" font-size="21" font-weight="800">ODLUKA</text>
+    <rect x="180" y="950" width="720" height="114" rx="57" fill="#3B9DD6"/><text x="540" y="1020" text-anchor="middle" fill="#0D1B2A" font-size="27" font-weight="900">SIGNAL → KONKRETAN SLJEDEĆI POTEZ</text>
+    <line x1="76" y1="1190" x2="1004" y2="1190" stroke="#283C58" stroke-width="2"/>
+    <text x="76" y="1235" fill="#E8EDF4" font-size="21" font-weight="700">Pogledajte signal za jedan poslovni slučaj →</text>
+    <text x="76" y="1286" fill="#94A6BE" font-size="18">autoinsightdata.com</text><text x="1004" y="1286" text-anchor="end" fill="#F5A623" font-size="18" font-weight="800">AID-2608-F02</text>
+  </g></svg>

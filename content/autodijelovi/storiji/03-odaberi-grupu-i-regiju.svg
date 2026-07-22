@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B2035"/><stop offset="1" stop-color="#07111F"/></linearGradient><pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#24405D" stroke-opacity=".35"/></pattern></defs>
+  <image xlink:href="../visuals/category-parts-flatlay.png" width="1080" height="1920" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1080" height="1920" fill="url(#bg)" opacity=".72"/><rect width="1080" height="1920" fill="url(#grid)"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="90" y="260" fill="#F4F7FB" font-size="24" font-weight="700" letter-spacing="2">AID / PARTS INTELLIGENCE</text>
+    <text x="90" y="410" fill="#FFB547" font-size="21" font-weight="700" letter-spacing="4">SLJEDEĆI KORAK</text>
+    <text x="90" y="590" fill="#F4F7FB" font-size="72" font-weight="700"><tspan x="90">Odaberite</tspan><tspan x="90" dy="88" fill="#20D3EE">jednu grupu</tspan><tspan x="90" dy="88">i jednu regiju.</tspan></text>
+    <text x="90" y="895" fill="#9CB0C8" font-size="25">Početni prikaz treba odgovoriti:</text>
+    <g transform="translate(90 970)">
+      <rect width="900" height="310" rx="30" fill="#0D1B2E" stroke="#24405D"/>
+      <text x="50" y="78" fill="#F4F7FB" font-size="29" font-weight="700">01  Gdje je tržišni potencijal?</text>
+      <line x1="50" y1="112" x2="850" y2="112" stroke="#24405D"/>
+      <text x="50" y="180" fill="#F4F7FB" font-size="29" font-weight="700">02  Gdje je zaliha pogrešno raspoređena?</text>
+      <line x1="50" y1="214" x2="850" y2="214" stroke="#24405D"/>
+      <text x="50" y="282" fill="#F4F7FB" font-size="29" font-weight="700">03  Koja odluka ima najveći prioritet?</text>
+    </g>
+    <rect x="90" y="1390" width="900" height="130" rx="32" fill="#20D3EE"/><text x="138" y="1468" fill="#07111F" font-size="32" font-weight="700">Dogovorite prikaz</text><circle cx="915" cy="1455" r="34" fill="#07111F"/><path d="M897 1455h36m-12-12 12 12-12 12" fill="none" stroke="#20D3EE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="90" y="1640" fill="#F4F7FB" font-size="25" font-weight="700">30 minuta · jedan use case · jasan sljedeći korak</text>
+    <text x="90" y="1710" fill="#9CB0C8" font-size="20">autoinsightdata.com</text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs><linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#07111F"/><stop offset="1" stop-color="#10283D"/></linearGradient><pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#24405D"/></pattern></defs>
+  <image xlink:href="../visuals/regional-distribution.png" width="1080" height="1920" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1080" height="1920" fill="url(#bg)" opacity=".70"/><rect width="1080" height="1920" fill="url(#dots)"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="90" y="260" fill="#F4F7FB" font-size="24" font-weight="700" letter-spacing="2">AID / PARTS INTELLIGENCE</text>
+    <text x="90" y="410" fill="#FFB547" font-size="21" font-weight="700" letter-spacing="4">GEO SIGNAL</text>
+    <text x="90" y="575" fill="#F4F7FB" font-size="72" font-weight="700"><tspan x="90">Gdje ovaj dio</tspan><tspan x="90" dy="88" fill="#20D3EE">treba biti?</tspan></text>
+    <g transform="translate(90 840)">
+      <g><circle cx="54" cy="54" r="44" fill="#20D3EE"/><text x="54" y="65" text-anchor="middle" fill="#07111F" font-size="28" font-weight="700">1</text><text x="135" y="48" fill="#F4F7FB" font-size="31" font-weight="700">LOKALNO DRŽATI</text><text x="135" y="92" fill="#9CB0C8" font-size="21">brza grupa · potvrđen lokalni potencijal</text></g>
+      <line x1="54" y1="105" x2="54" y2="565" stroke="#24405D" stroke-width="4"/>
+      <g transform="translate(0 250)"><circle cx="54" cy="54" r="44" fill="#20D3EE"/><text x="54" y="65" text-anchor="middle" fill="#07111F" font-size="28" font-weight="700">2</text><text x="135" y="48" fill="#F4F7FB" font-size="31" font-weight="700">PREBACITI</text><text x="135" y="92" fill="#9CB0C8" font-size="21">višak postoji u drugoj poslovnici</text></g>
+      <g transform="translate(0 500)"><circle cx="54" cy="54" r="44" fill="#FFB547"/><text x="54" y="65" text-anchor="middle" fill="#07111F" font-size="28" font-weight="700">3</text><text x="135" y="48" fill="#F4F7FB" font-size="31" font-weight="700">CENTRALIZIRATI</text><text x="135" y="92" fill="#9CB0C8" font-size="21">skup, spor ili neredovno tražen dio</text></g>
+    </g>
+    <rect x="90" y="1580" width="900" height="122" rx="30" fill="#20D3EE"/><text x="138" y="1654" fill="#07111F" font-size="29" font-weight="700">Koja odluka vam najčešće nedostaje?</text>
+    <text x="90" y="1780" fill="#9CB0C8" font-size="20">autoinsightdata.com</text>
+  </g>
+</svg>

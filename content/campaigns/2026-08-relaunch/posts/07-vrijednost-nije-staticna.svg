@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D1B2A"/><stop offset="1" stop-color="#13243A"/></linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#283C58" stroke-opacity=".28"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#bg)" opacity="1"/><rect width="1080" height="1350" fill="url(#grid)"/><path d="M0 1100L1080 800V1350H0Z" fill="#3B9DD6" opacity=".04"/>
+  <rect width="668" height="8" fill="#F5A623"/><rect x="668" width="412" height="8" fill="#3B9DD6"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif"><text x="76" y="86" fill="#E8EDF4" font-size="21" font-weight="800" letter-spacing="2.4">AID / VALUE &amp; RISK SIGNAL</text>
+    <text x="76" y="230" fill="#E8EDF4" font-size="69" font-weight="900">Vrijednost vozila</text><text x="76" y="315" fill="#F5A623" font-size="69" font-weight="900">nije statična.</text>
+    <path d="M100 900C260 840 300 620 460 700S690 460 980 510" fill="none" stroke="#3B9DD6" stroke-width="14"/><path d="M100 900C260 840 300 620 460 700S690 460 980 510L980 1030H100Z" fill="#3B9DD6" opacity=".08"/>
+    <circle cx="180" cy="850" r="28" fill="#F5A623"/><circle cx="460" cy="700" r="28" fill="#3B9DD6"/><circle cx="750" cy="545" r="28" fill="#F5A623"/><circle cx="960" cy="510" r="28" fill="#3B9DD6"/>
+    <rect x="110" y="950" width="250" height="90" rx="18" fill="#13243A" stroke="#283C58"/><text x="235" y="1006" text-anchor="middle" fill="#E8EDF4" font-size="19" font-weight="800">USPOREDIVA JEDINICA</text>
+    <rect x="415" y="950" width="250" height="90" rx="18" fill="#13243A" stroke="#283C58"/><text x="540" y="1006" text-anchor="middle" fill="#E8EDF4" font-size="19" font-weight="800">TRENUTAK PROCJENE</text>
+    <rect x="720" y="950" width="250" height="90" rx="18" fill="#13243A" stroke="#F5A623"/><text x="845" y="1006" text-anchor="middle" fill="#F5A623" font-size="19" font-weight="800">PORTFELJNI SIGNAL</text>
+    <line x1="76" y1="1190" x2="1004" y2="1190" stroke="#283C58" stroke-width="2"/>
+    <text x="76" y="1235" fill="#E8EDF4" font-size="21" font-weight="700">Dogovorite tržišni pregled jednog segmenta →</text>
+    <text x="76" y="1286" fill="#94A6BE" font-size="18">autoinsightdata.com</text><text x="1004" y="1286" text-anchor="end" fill="#F5A623" font-size="18" font-weight="800">AID-2608-F07</text>
+  </g></svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D1B2A"/><stop offset="1" stop-color="#13243A"/></linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#283C58" stroke-opacity=".28"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+<image href="../../../autodijelovi/visuals/procurement-pilot.png" width="1080" height="1350" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1080" height="1350" fill="url(#bg)" opacity=".76"/><rect width="1080" height="1350" fill="url(#grid)"/><circle cx="1000" cy="120" r="260" fill="#3B9DD6" opacity=".20"/>
+  <rect width="668" height="8" fill="#F5A623"/><rect x="668" width="412" height="8" fill="#3B9DD6"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif"><text x="76" y="86" fill="#E8EDF4" font-size="21" font-weight="800" letter-spacing="2.4">AID / PILOT FIRST</text>
+    <rect x="58" y="155" width="964" height="930" rx="42" fill="#F5A623" filter="url(#shadow)"/><text x="110" y="280" fill="#0D1B2A" font-size="27" font-weight="900" letter-spacing="3">PILOT FIRST</text>
+    <text x="110" y="420" fill="#0D1B2A" font-size="83" font-weight="900">Jedan slučaj.</text><text x="110" y="520" fill="#0D1B2A" font-size="83" font-weight="900">Jedan KPI.</text><text x="110" y="620" fill="#0D1B2A" font-size="83" font-weight="900">Jasan test.</text>
+    <line x1="110" y1="690" x2="930" y2="690" stroke="#0D1B2A" stroke-opacity=".35" stroke-width="3"/><text x="110" y="770" fill="#0D1B2A" font-size="27" font-weight="800">01  problem koji danas nije dovoljno jasan</text><text x="110" y="835" fill="#0D1B2A" font-size="27" font-weight="800">02  signal vezan uz vlasnika i KPI</text><text x="110" y="900" fill="#0D1B2A" font-size="27" font-weight="800">03  usporedba sa stvarnim ishodom</text>
+    <rect x="110" y="950" width="520" height="82" rx="41" fill="#0D1B2A"/><text x="370" y="1002" text-anchor="middle" fill="#E8EDF4" font-size="22" font-weight="900">DOGOVORITE POSLOVNI PRIKAZ →</text>
+    <line x1="76" y1="1190" x2="1004" y2="1190" stroke="#283C58" stroke-width="2"/>
+    <text x="76" y="1235" fill="#E8EDF4" font-size="21" font-weight="700">Dogovorite poslovni prikaz → autoinsightdata.com/contact</text>
+    <text x="76" y="1286" fill="#94A6BE" font-size="18">autoinsightdata.com</text><text x="1004" y="1286" text-anchor="end" fill="#F5A623" font-size="18" font-weight="800">AID-2608-F08</text>
+  </g></svg>

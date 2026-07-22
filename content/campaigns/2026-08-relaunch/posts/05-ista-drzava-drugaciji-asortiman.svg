@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D1B2A"/><stop offset="1" stop-color="#13243A"/></linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#283C58" stroke-opacity=".28"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+<image href="../../../autodijelovi/visuals/regional-distribution.png" width="1080" height="1350" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1080" height="1350" fill="url(#bg)" opacity=".76"/><rect width="1080" height="1350" fill="url(#grid)"/><rect y="390" width="540" height="650" fill="#3B9DD6" opacity=".06"/><rect x="540" y="390" width="540" height="650" fill="#F5A623" opacity=".06"/>
+  <rect width="668" height="8" fill="#F5A623"/><rect x="668" width="412" height="8" fill="#3B9DD6"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif"><text x="76" y="86" fill="#E8EDF4" font-size="21" font-weight="800" letter-spacing="2.4">AID / REGIONALNI SIGNAL</text>
+    <text x="76" y="230" fill="#E8EDF4" font-size="72" font-weight="900">Ista država.</text><text x="76" y="315" fill="#F5A623" font-size="72" font-weight="900">Drugačiji asortiman.</text>
+    <line x1="540" y1="410" x2="540" y2="985" stroke="#F5A623" stroke-width="5" stroke-dasharray="16 14"/>
+    <circle cx="275" cy="580" r="88" fill="#13243A" stroke="#3B9DD6" stroke-width="5"/><circle cx="275" cy="580" r="30" fill="#3B9DD6"/><path d="M275 610v95" stroke="#3B9DD6" stroke-width="10"/>
+    <circle cx="805" cy="580" r="88" fill="#13243A" stroke="#F5A623" stroke-width="5"/><circle cx="805" cy="580" r="30" fill="#F5A623"/><path d="M805 610v95" stroke="#F5A623" stroke-width="10"/>
+    <text x="275" y="770" text-anchor="middle" fill="#E8EDF4" font-size="30" font-weight="900">LOKACIJA A</text><text x="805" y="770" text-anchor="middle" fill="#E8EDF4" font-size="30" font-weight="900">LOKACIJA B</text>
+    <rect x="170" y="910" width="740" height="126" rx="28" fill="#F5A623"/><text x="540" y="965" text-anchor="middle" fill="#0D1B2A" font-size="22" font-weight="900">ODLUKA</text><text x="540" y="1005" text-anchor="middle" fill="#0D1B2A" font-size="27" font-weight="800">lokalno držati · premjestiti · centralizirati</text>
+    <line x1="76" y1="1190" x2="1004" y2="1190" stroke="#283C58" stroke-width="2"/>
+    <text x="76" y="1235" fill="#E8EDF4" font-size="21" font-weight="700">Zatražite lokalni pregled jedne kategorije →</text>
+    <text x="76" y="1286" fill="#94A6BE" font-size="18">autoinsightdata.com</text><text x="1004" y="1286" text-anchor="end" fill="#F5A623" font-size="18" font-weight="800">AID-2608-F05</text>
+  </g></svg>

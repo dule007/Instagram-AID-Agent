@@ -1,0 +1,7 @@
+.env
+token i isntagram app secret.txt
+inputs_docuemtns/
+storage/
+**pycache**/
+*.pyc
+.venv/

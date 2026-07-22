@@ -1,0 +1,102 @@
+{
+  "entries": [
+    {
+      "at": "2026-07-22T09:24:50.941720+00:00",
+      "action": "reschedule",
+      "id": "TEST-01",
+      "outcome": "ok",
+      "detail": "2026-12-15T09:00:00+01:00"
+    },
+    {
+      "at": "2026-07-22T09:24:50.931008+00:00",
+      "action": "reschedule",
+      "id": "TEST-01",
+      "outcome": "ok",
+      "detail": "2026-07-30T09:00:00+02:00"
+    },
+    {
+      "at": "2026-07-22T09:24:50.256703+00:00",
+      "action": "reschedule",
+      "id": "TEST-01",
+      "outcome": "ok",
+      "detail": "2026-12-15T09:00:00+01:00"
+    },
+    {
+      "at": "2026-07-22T09:24:50.255308+00:00",
+      "action": "reschedule",
+      "id": "TEST-01",
+      "outcome": "ok",
+      "detail": "2026-07-30T09:00:00+02:00"
+    },
+    {
+      "at": "2026-07-22T09:21:24.833757+00:00",
+      "action": "reschedule",
+      "id": "TEST-01",
+      "outcome": "ok",
+      "detail": "2026-12-15T09:00:00+01:00"
+    },
+    {
+      "at": "2026-07-22T09:21:24.828014+00:00",
+      "action": "reschedule",
+      "id": "TEST-01",
+      "outcome": "ok",
+      "detail": "2026-07-30T09:00:00+02:00"
+    },
+    {
+      "at": "2026-07-22T09:21:24.821600+00:00",
+      "action": "autopilot",
+      "id": "",
+      "outcome": "off",
+      "detail": "5 min · operater"
+    },
+    {
+      "at": "2026-07-22T09:16:14.065980+00:00",
+      "action": "reschedule",
+      "id": "AID-2608-S01",
+      "outcome": "ok",
+      "detail": "2026-07-22T19:45:00+02:00"
+    },
+    {
+      "at": "2026-07-22T09:13:22.235313+00:00",
+      "action": "reschedule",
+      "id": "AID-2608-F01",
+      "outcome": "ok",
+      "detail": "2026-07-22T10:15:00+02:00"
+    },
+    {
+      "at": "2026-07-22T09:13:22.211105+00:00",
+      "action": "reschedule",
+      "id": "AID-2608-F01",
+      "outcome": "ok",
+      "detail": "2026-12-15T10:15:00+01:00"
+    },
+    {
+      "at": "2026-07-22T09:13:22.191856+00:00",
+      "action": "reschedule",
+      "id": "AID-2608-F01",
+      "outcome": "ok",
+      "detail": "2026-07-22T10:15:00+02:00"
+    },
+    {
+      "at": "2026-07-22T09:11:38.205805+00:00",
+      "action": "revoke",
+      "id": "AID-2608-F01",
+      "outcome": "ok",
+      "detail": ""
+    },
+    {
+      "at": "2026-07-22T09:11:38.171329+00:00",
+      "action": "approve",
+      "id": "AID-2608-F01",
+      "outcome": "ok",
+      "detail": "TEST validacija Claude Code · da363f726f94"
+    },
+    {
+      "at": "2026-07-22T09:10:00.772941+00:00",
+      "action": "check_connection",
+      "id": "",
+      "outcome": "ok",
+      "detail": "@autoinsightdata"
+    }
+  ]
+}

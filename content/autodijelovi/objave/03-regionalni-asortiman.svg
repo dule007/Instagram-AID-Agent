@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B2035"/><stop offset="1" stop-color="#07111F"/></linearGradient><pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#24405D" stroke-opacity=".35"/></pattern></defs>
+  <image xlink:href="../visuals/regional-distribution.png" width="1080" height="1350" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1080" height="1350" fill="url(#bg)" opacity=".66"/><rect width="1080" height="1350" fill="url(#grid)"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="76" y="100" fill="#F4F7FB" font-size="24" font-weight="700" letter-spacing="2">AID / PARTS INTELLIGENCE</text>
+    <text x="76" y="236" fill="#FFB547" font-size="20" font-weight="700" letter-spacing="4">GEO SIGNAL</text>
+    <text x="76" y="342" fill="#F4F7FB" font-size="68" font-weight="700"><tspan x="76">Jedna država.</tspan><tspan x="76" dy="84" fill="#20D3EE">Više aftermarket tržišta.</tspan></text>
+    <text x="76" y="520" fill="#9CB0C8" font-size="23">Isti asortiman ne odgovara svakoj lokaciji.</text>
+    <g stroke="#24405D" stroke-width="4" fill="none"><path d="M540 660L260 790M540 660L820 790M540 660V1030"/></g>
+    <g font-family="DejaVu Sans, Arial, sans-serif">
+      <circle cx="540" cy="650" r="86" fill="#20D3EE"/><text x="540" y="642" text-anchor="middle" fill="#07111F" font-size="24" font-weight="700">CENTRALNI</text><text x="540" y="676" text-anchor="middle" fill="#07111F" font-size="24" font-weight="700">DC</text>
+      <rect x="110" y="780" width="300" height="128" rx="24" fill="#0D1B2E" stroke="#24405D"/><text x="140" y="830" fill="#F4F7FB" font-size="24" font-weight="700">LOKALNO DRŽATI</text><text x="140" y="868" fill="#9CB0C8" font-size="19">brze grupe · lokalni potencijal</text>
+      <rect x="670" y="780" width="300" height="128" rx="24" fill="#0D1B2E" stroke="#24405D"/><text x="700" y="830" fill="#F4F7FB" font-size="24" font-weight="700">PREBACITI</text><text x="700" y="868" fill="#9CB0C8" font-size="19">višak jedne · manjak druge lokacije</text>
+      <rect x="390" y="1020" width="300" height="128" rx="24" fill="#0D1B2E" stroke="#FFB547"/><text x="420" y="1070" fill="#FFB547" font-size="24" font-weight="700">CENTRALIZIRATI</text><text x="420" y="1108" fill="#9CB0C8" font-size="19">skupi i neredovno traženi dijelovi</text>
+    </g>
+    <text x="76" y="1226" fill="#F4F7FB" font-size="25" font-weight="700">Zatražite lokalni demand scan →</text><text x="76" y="1272" fill="#9CB0C8" font-size="20">autoinsightdata.com</text>
+  </g>
+</svg>

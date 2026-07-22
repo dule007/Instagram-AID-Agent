@@ -21,16 +21,16 @@
     },
     {
       "id": "AID-2608-F01",
-      "scheduled_at": "2026-07-22T10:15:00+02:00",
+      "scheduled_at": "2026-07-22T14:01:45+02:00",
       "channel": "FEED",
       "media_type": "IMAGE",
       "media_path": "posts/01-podatak-nije-odluka.png",
       "publish_media_path": "posts/01-podatak-nije-odluka.jpg",
       "brief_path": "posts/01-podatak-nije-odluka.md",
       "caption_path": "posts/01-podatak-nije-odluka.md",
-      "media_url": "",
+      "media_url": "https://raw.githubusercontent.com/dule007/Instagram-AID-Agent/main/media/AID-2608-F01-dd3f25336489.jpg",
       "claims_status": "verified",
-      "status": "review_required"
+      "status": "published"
     },
     {
       "id": "AID-2608-S02",

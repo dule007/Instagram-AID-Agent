@@ -4,10 +4,10 @@
 
 - Datum zadnjeg ažuriranja: 2026-07-22
 - Zadnji agent: Claude Code
-- Aktivni zadatak: operativni Instagram Control Agent je implementiran i
-  testiran; čeka se ispravak GitHub token ovlasti da bi media hosting proradio
-- Git grana: `main`
-- Repozitorij još nema početni commit; projektne datoteke su untracked
+- Aktivni zadatak: **prva stvarna objava je izvršena**; media hosting radi;
+  ostatak rasporeda čeka odobrenje po stavci
+- Git grana: `main`, praćena `origin/main`
+- Repozitorij je objavljen na `dule007/Instagram-AID-Agent` (javan)
 
 ## Dovršeno u ovom ciklusu
 
@@ -60,16 +60,42 @@
 - testni approval zapis stvoren tijekom provjere odmah je povučen, pa stanje
   approvala ostaje čisto; `PUBLISHED_RECORDS=0`.
 
-## Blokirano
+## Ciklus 2026-07-22: objava repozitorija i prva Instagram objava
 
-- **Upload na media host ne radi.** GitHub vraća
-  `403 Resource not accessible by personal access token` na
-  `PUT /repos/.../contents/...`. Token čita repozitorij, ali nema pravo pisanja.
-  Vlasnik mora tom fine-grained tokenu dodijeliti ovlast
-  `Contents: Read and write` za taj repozitorij, ili izdati novi token s tom
-  ovlasti i zamijeniti `GITHUB_TOKEN` u `instagram_agent/.env`.
-- Dok media hosting ne proradi, nijedna feed objava nema javni `media_url`, pa
-  su `Objavi sad` i autopilot tehnički blokirani za feed sadržaj.
+- repozitorij je inicijaliziran i pushan na `dule007/Instagram-AID-Agent`;
+  `inputs_docuemtns/` je dodan u `.gitignore` jer sadrži interne poslovne
+  dokumente, a repozitorij je javan;
+- push je u prva tri pokušaja padao na `HTTP 408`; uzrok je uzlazna brzina veze
+  od ~100 KiB/s uz pack od 49 MiB. Riješeno dvojako: 11 PNG-ova u
+  `content/autodijelovi/` optimizirano je `pngquantom` (8,3 MB → 0,37 MB, bez
+  promjene dimenzija), a početni commit je podijeljen na četiri koja se
+  pushaju zasebno, svaki ispod 6,7 MiB. `http.postBuffer` od 500 MB je uklonjen
+  jer je prisiljavao jedan veliki POST umjesto chunked prijenosa;
+- `GITHUB_TOKEN` je zamijenjen fine-grained tokenom s ovlašću
+  `Contents: Read and write` ograničenom na taj repozitorij; time je odblokiran
+  media hosting;
+- **`AID-2608-F01` je objavljen na `@autoinsightdata`.**
+  - permalink: https://www.instagram.com/p/DbGDQWjiG6b/
+  - Meta media ID: `17863172289647108`, container `17877749382618176`
+  - objavljeno: 2026-07-22T12:06:27Z
+  - odobrio: Kristijan Pavičić, fingerprint `04e1f43709a8`
+  - `media_url`: `media/AID-2608-F01-dd3f25336489.jpg` na raw.githubusercontent
+- objava je potvrđena izravnim read-only upitom Meti
+  (`fields=id,permalink,media_type,timestamp,caption,username`), ne samo
+  lokalnim zapisom.
+
+## Zapažanje za sljedeći ciklus
+
+- `action_publish` je vratio `ActionError: već postoji published zapis` iako je
+  objava uspjela. Duplikat-guard je uhvatio ponovni prolaz **nakon** što je
+  `publish_item` već dovršio i upisao `state/published/`. Poziv je istovremeno
+  ostavio i `pending` zapis s `phase: published`, koji je ručno uklonjen.
+  Vrijedi provjeriti zašto se `publish_item` izvršio dvaput unutar jednog
+  poziva i zašto `pending` nije očišćen po uspjehu — u trenutnom obliku
+  uspješna objava korisniku izgleda kao greška.
+- `resolve_pending` s ishodom `published` namjerno **nije** korišten jer bi
+  prepisao točan zapis i zamijenio `credential_source: environment` s
+  `manual_reconciliation`, čime bi audit trag bio lošiji od stvarnog.
 
 ## Nije implementirano
 
@@ -78,21 +104,24 @@
 - carousel, Reels i privatni Insights;
 - automatsko dodavanje native Story stickera;
 - samostalno agentsko odobravanje sadržaja; korisnik je izričito odabrao da
-  autopilot objavljuje isključivo prethodno odobrene stavke;
-- ništa još nije objavljeno na stvarnom Instagram profilu.
+  autopilot objavljuje isključivo prethodno odobrene stavke.
 
 ## Sljedeći korak
 
-1. Vlasnik dodaje `Contents: Read and write` GitHub tokenu i restarta dashboard.
-2. Za `AID-2608-F01`: `Objavi asset na host`, zatim `Odobri` uz pregled punog
-   paketa, pa `Objavi sad`.
-3. Nakon prve uspješne objave uključiti autopilot za ostatak rasporeda, uz
-   prethodno odobrene stavke.
+1. **Sigurnosno, prioritetno:** classic PAT `ghp_67uSXtf…` je bio izložen u
+   plain textu u agentskoj sesiji i mora se obrisati na GitHubu. Još stoji u
+   `.env` pod `GITHUB_PERSONAL_ACCESS_TOKEN`, gdje ga nijedan modul ne čita.
+2. Preostale stavke rasporeda odobravati pojedinačno kroz dashboard; nijedna
+   nema `media_url` dok se ne pokrene `Objavi asset na host`.
+3. Autopilot uključiti tek kad postoji više odobrenih stavki; objavljuje
+   isključivo prethodno odobrene.
 4. Kompromitirani Instagram token iz `.env` zamijeniti službenim OAuth tokenom;
    `oauth.py` konektor i dalje čeka dovršen consent/callback.
 5. `AID-2608-S01` ostaje ručan: native poll `Izvještaj / Odluka` mora se dodati
    u Instagram aplikaciji, a published status evidentira se tek nakon stvarne
    potvrde s Instagrama.
+6. Fine-grained `GITHUB_TOKEN` istječe za 30 dana (21.08.2026.); media hosting
+   staje na taj datum ako se token ne obnovi.
 
 ## Kanonske početne datoteke
 

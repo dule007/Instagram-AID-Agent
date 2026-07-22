@@ -84,6 +84,57 @@
   (`fields=id,permalink,media_type,timestamp,caption,username`), ne samo
   lokalnim zapisom.
 
+## Ciklus 2026-07-22b: storiji prelaze na autopilot
+
+Vlasnik je tražio da agent objavljuje sam po rasporedu. Svih 12 storija bilo je
+`manual_only` jer su nosili native poll, question ili link sticker, kojih u
+Graph API-ju nema. Odlukom vlasnika stickeri su ukinuti.
+
+- `layout_variants.py`: zamijenjeno 11 sticker-ovisnih CTA tekstova. Vizuali su
+  doslovno upućivali na anketu („ODABERITE U POLLU ↓") iznad prazne zone
+  rezervirane za sticker; bez ankete bi to bila pokvarena objava. Novi CTA vodi
+  na nativni story reply („ODGOVORITE NAM PORUKOM ↓") ili na link u biu za tri
+  storija koji su nosili link sticker. Strelica i dalje pokazuje na Instagramovo
+  polje za odgovor, koje stoji točno na tom mjestu;
+- svih 12 story SVG-ova, PNG-ova i briefova regenerirano; feed **nije** diran
+  jer je `F01` već objavljen (provjereno md5 usporedbom);
+- `publishing-manifest.json`: uklonjeni `native_sticker` i `manual_only` sa svih
+  12 storija;
+- `build_manifest.py`: prije je tvrdo upisivao `manual_only = True` svakom
+  storiju i dopuštao JPEG samo feedu, pa bi svako ponovno pokretanje poništilo
+  gornje izmjene. Sada `story_sticker()` vraća prazan string za vrijednost
+  `nema — story je samodostatan`, a `manual_only` se postavlja samo kad sticker
+  stvarno postoji;
+- **nedostajali su zaključani JPEG asseti.** `validate_item(publishing=True)`
+  traži JPEG, a JPEG je imao samo `F01`. Bez toga bi svih 12 storija i 7 feed
+  objava palo tek u trenutku stvarne objave. Generirano 19 JPEG-ova i upisan
+  `publish_media_path` za svaku stavku;
+- `research_gate.py`: uveden `MAX_VALIDITY_DAYS = 30` (bilo tvrdo 7), na
+  izričit zahtjev vlasnika, da autopilot može raditi bez nadzora dulje od tjedan
+  dana. `expires_at` pomaknut na 2026-08-19. `researched_at` namjerno **nije**
+  diran — pomicanje tog polja učinilo bi gate besmislenim;
+- `AGENTS.md`: dodano pravilo da sadržaj ne smije ovisiti o native stickerima i
+  izričita zabrana automatizacije Instagram sučelja preko preglednika.
+
+### Provjereno u ovom ciklusu
+
+- 39/39 offline testova prolazi i nakon izmjena;
+- `validate_item(publishing=True)` prolazi za svih 20 stavki, 0 blokada;
+- `build_manifest.py` ponovno pokrenut: `manual_only` se više ne vraća.
+
+### Otvoreno nakon ovog ciklusa
+
+- **`build_manifest.py` gazi živo stanje.** Ponovno pokretanje vratilo je `F01`
+  iz `published` u `review_required` i resetiralo `scheduled_at` na vrijednost
+  iz `schedule.csv`. Manifest je vraćen iz sigurnosne kopije. Generator bi
+  trebao čuvati `status` i `scheduled_at` za stavke koje imaju zapis u
+  `state/published/`.
+- 7 stavki od 21.08. nadalje (`F06`, `S09`, `S10`, `F07`, `S11`, `F08`, `S12`)
+  pada izvan prozora i uz 30 dana, jer benchmark nosi datum 2026-07-20. Za njih
+  treba stvarno novo istraživanje.
+- Odobrenje za `AID-2608-S01` poništeno je promjenom vizuala i uklonjeno;
+  status vraćen na `draft`.
+
 ## Zapažanje za sljedeći ciklus
 
 - `action_publish` je vratio `ActionError: već postoji published zapis` iako je

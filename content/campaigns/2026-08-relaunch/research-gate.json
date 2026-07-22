@@ -2,14 +2,39 @@
   "schema_version": 1,
   "benchmark_file": "../../research/2026-07-20-relaunch-benchmark.md",
   "researched_at": "2026-07-20",
-  "expires_at": "2026-07-27",
-  "niches": ["autodijelovi", "leasing", "flote", "automotive market intelligence"],
+  "expires_at": "2026-08-19",
+  "niches": [
+    "autodijelovi",
+    "leasing",
+    "flote",
+    "automotive market intelligence"
+  ],
   "sources": [
-    {"url": "../../research/2026-07-20-relaunch-benchmark.md", "type": "internal_public_audit", "private_insights": false},
-    {"url": "https://about.fb.com/news/2025/01/new-insights-to-boost-lead-generation-for-auto-brands-in-india/", "type": "official_meta_automotive", "private_insights": false},
-    {"url": "https://about.fb.com/news/2026/01/2026-ai-drives-performance/", "type": "official_meta_original_content", "private_insights": false},
-    {"url": "https://www.spglobal.com/en/press/social-media-directory", "type": "b2b_market_intelligence_benchmark", "private_insights": false},
-    {"url": "https://www.coxautoinc.com/", "type": "automotive_market_benchmark", "private_insights": false}
+    {
+      "url": "../../research/2026-07-20-relaunch-benchmark.md",
+      "type": "internal_public_audit",
+      "private_insights": false
+    },
+    {
+      "url": "https://about.fb.com/news/2025/01/new-insights-to-boost-lead-generation-for-auto-brands-in-india/",
+      "type": "official_meta_automotive",
+      "private_insights": false
+    },
+    {
+      "url": "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+      "type": "official_meta_original_content",
+      "private_insights": false
+    },
+    {
+      "url": "https://www.spglobal.com/en/press/social-media-directory",
+      "type": "b2b_market_intelligence_benchmark",
+      "private_insights": false
+    },
+    {
+      "url": "https://www.coxautoinc.com/",
+      "type": "automotive_market_benchmark",
+      "private_insights": false
+    }
   ],
   "rubric": {
     "buyer_relevance": 20,
@@ -22,25 +47,365 @@
   },
   "minimum_score": 80,
   "items": {
-    "AID-2608-F01": {"scorecard": [18,14,12,14,10,12,9], "patterns": ["buyer tension on cover", "one decision question"], "rejected": "generic technology intro", "expected_signal": "relevant comment or profile visit", "status": "pass"},
-    "AID-2608-F02": {"scorecard": [18,12,15,14,10,11,10], "patterns": ["process made visual", "single operational output"], "rejected": "four identical feature cards", "expected_signal": "save or question about process", "status": "pass"},
-    "AID-2608-F03": {"scorecard": [20,15,14,14,9,13,9], "patterns": ["counterintuitive question", "niche photography"], "rejected": "generic stock shortage claim", "expected_signal": "DM about category or region", "status": "pass"},
-    "AID-2608-F04": {"scorecard": [19,13,15,14,10,13,8], "patterns": ["self-diagnosis list", "action language"], "rejected": "dashboard feature list", "expected_signal": "comment naming difficult decision", "status": "pass"},
-    "AID-2608-F05": {"scorecard": [19,14,14,14,10,13,9], "patterns": ["regional contrast", "localized buyer problem"], "rejected": "single national assortment graphic", "expected_signal": "request for local review", "status": "pass"},
-    "AID-2608-F06": {"scorecard": [18,14,13,13,10,12,9], "patterns": ["time as visual tension", "three decision exits"], "rejected": "fear-based discount message", "expected_signal": "reply naming bottleneck", "status": "pass"},
-    "AID-2608-F07": {"scorecard": [19,13,14,14,10,12,9], "patterns": ["dynamic value curve", "portfolio context"], "rejected": "unsupported accuracy promise", "expected_signal": "portfolio review interest", "status": "pass"},
-    "AID-2608-F08": {"scorecard": [19,14,13,15,10,15,9], "patterns": ["small test framing", "high-contrast conversion poster"], "rejected": "large transformation project pitch", "expected_signal": "business display request", "status": "pass"},
-    "AID-2608-S01": {"scorecard": [18,14,11,14,9,13,10], "patterns": ["binary poll", "buyer self-recognition"], "rejected": "passive teaser", "expected_signal": "poll response", "status": "pass"},
-    "AID-2608-S02": {"scorecard": [17,12,14,14,9,12,10], "patterns": ["vertical process", "question sticker"], "rejected": "miniature feed layout", "expected_signal": "question response", "status": "pass"},
-    "AID-2608-S03": {"scorecard": [17,14,12,14,10,12,10], "patterns": ["myth interruption", "link continuation"], "rejected": "feature recap", "expected_signal": "link tap", "status": "pass"},
-    "AID-2608-S04": {"scorecard": [20,15,13,14,9,13,10], "patterns": ["photo tension", "niche binary choice"], "rejected": "generic inventory poll", "expected_signal": "poll response", "status": "pass"},
-    "AID-2608-S05": {"scorecard": [19,13,13,14,10,12,10], "patterns": ["location pins", "operational choice"], "rejected": "three equal text cards", "expected_signal": "location preference response", "status": "pass"},
-    "AID-2608-S06": {"scorecard": [18,13,14,14,10,12,9], "patterns": ["action stack", "self-diagnosis question"], "rejected": "static checklist", "expected_signal": "question response", "status": "pass"},
-    "AID-2608-S07": {"scorecard": [19,14,13,14,10,12,10], "patterns": ["regional split", "yes-no tension"], "rejected": "country map without decision", "expected_signal": "poll response", "status": "pass"},
-    "AID-2608-S08": {"scorecard": [18,14,12,13,10,13,10], "patterns": ["clock metaphor", "open buyer question"], "rejected": "generic aging metric", "expected_signal": "question response", "status": "pass"},
-    "AID-2608-S09": {"scorecard": [18,13,13,14,10,12,10], "patterns": ["decision timeline", "feed continuation"], "rejected": "duplicate feed cover", "expected_signal": "link tap", "status": "pass"},
-    "AID-2608-S10": {"scorecard": [18,13,13,14,10,12,10], "patterns": ["value curve", "process poll"], "rejected": "unsupported price forecast", "expected_signal": "poll response", "status": "pass"},
-    "AID-2608-S11": {"scorecard": [19,14,14,14,9,13,10], "patterns": ["KPI matrix", "one-choice qualification"], "rejected": "open-ended generic CTA", "expected_signal": "qualified KPI response", "status": "pass"},
-    "AID-2608-S12": {"scorecard": [19,14,12,15,10,15,10], "patterns": ["single conversion action", "high-contrast close"], "rejected": "multiple competing CTAs", "expected_signal": "business display link tap", "status": "pass"}
+    "AID-2608-F01": {
+      "scorecard": [
+        18,
+        14,
+        12,
+        14,
+        10,
+        12,
+        9
+      ],
+      "patterns": [
+        "buyer tension on cover",
+        "one decision question"
+      ],
+      "rejected": "generic technology intro",
+      "expected_signal": "relevant comment or profile visit",
+      "status": "pass"
+    },
+    "AID-2608-F02": {
+      "scorecard": [
+        18,
+        12,
+        15,
+        14,
+        10,
+        11,
+        10
+      ],
+      "patterns": [
+        "process made visual",
+        "single operational output"
+      ],
+      "rejected": "four identical feature cards",
+      "expected_signal": "save or question about process",
+      "status": "pass"
+    },
+    "AID-2608-F03": {
+      "scorecard": [
+        20,
+        15,
+        14,
+        14,
+        9,
+        13,
+        9
+      ],
+      "patterns": [
+        "counterintuitive question",
+        "niche photography"
+      ],
+      "rejected": "generic stock shortage claim",
+      "expected_signal": "DM about category or region",
+      "status": "pass"
+    },
+    "AID-2608-F04": {
+      "scorecard": [
+        19,
+        13,
+        15,
+        14,
+        10,
+        13,
+        8
+      ],
+      "patterns": [
+        "self-diagnosis list",
+        "action language"
+      ],
+      "rejected": "dashboard feature list",
+      "expected_signal": "comment naming difficult decision",
+      "status": "pass"
+    },
+    "AID-2608-F05": {
+      "scorecard": [
+        19,
+        14,
+        14,
+        14,
+        10,
+        13,
+        9
+      ],
+      "patterns": [
+        "regional contrast",
+        "localized buyer problem"
+      ],
+      "rejected": "single national assortment graphic",
+      "expected_signal": "request for local review",
+      "status": "pass"
+    },
+    "AID-2608-F06": {
+      "scorecard": [
+        18,
+        14,
+        13,
+        13,
+        10,
+        12,
+        9
+      ],
+      "patterns": [
+        "time as visual tension",
+        "three decision exits"
+      ],
+      "rejected": "fear-based discount message",
+      "expected_signal": "reply naming bottleneck",
+      "status": "pass"
+    },
+    "AID-2608-F07": {
+      "scorecard": [
+        19,
+        13,
+        14,
+        14,
+        10,
+        12,
+        9
+      ],
+      "patterns": [
+        "dynamic value curve",
+        "portfolio context"
+      ],
+      "rejected": "unsupported accuracy promise",
+      "expected_signal": "portfolio review interest",
+      "status": "pass"
+    },
+    "AID-2608-F08": {
+      "scorecard": [
+        19,
+        14,
+        13,
+        15,
+        10,
+        15,
+        9
+      ],
+      "patterns": [
+        "small test framing",
+        "high-contrast conversion poster"
+      ],
+      "rejected": "large transformation project pitch",
+      "expected_signal": "business display request",
+      "status": "pass"
+    },
+    "AID-2608-S01": {
+      "scorecard": [
+        18,
+        14,
+        11,
+        14,
+        9,
+        13,
+        10
+      ],
+      "patterns": [
+        "binary poll",
+        "buyer self-recognition"
+      ],
+      "rejected": "passive teaser",
+      "expected_signal": "poll response",
+      "status": "pass"
+    },
+    "AID-2608-S02": {
+      "scorecard": [
+        17,
+        12,
+        14,
+        14,
+        9,
+        12,
+        10
+      ],
+      "patterns": [
+        "vertical process",
+        "question sticker"
+      ],
+      "rejected": "miniature feed layout",
+      "expected_signal": "question response",
+      "status": "pass"
+    },
+    "AID-2608-S03": {
+      "scorecard": [
+        17,
+        14,
+        12,
+        14,
+        10,
+        12,
+        10
+      ],
+      "patterns": [
+        "myth interruption",
+        "link continuation"
+      ],
+      "rejected": "feature recap",
+      "expected_signal": "link tap",
+      "status": "pass"
+    },
+    "AID-2608-S04": {
+      "scorecard": [
+        20,
+        15,
+        13,
+        14,
+        9,
+        13,
+        10
+      ],
+      "patterns": [
+        "photo tension",
+        "niche binary choice"
+      ],
+      "rejected": "generic inventory poll",
+      "expected_signal": "poll response",
+      "status": "pass"
+    },
+    "AID-2608-S05": {
+      "scorecard": [
+        19,
+        13,
+        13,
+        14,
+        10,
+        12,
+        10
+      ],
+      "patterns": [
+        "location pins",
+        "operational choice"
+      ],
+      "rejected": "three equal text cards",
+      "expected_signal": "location preference response",
+      "status": "pass"
+    },
+    "AID-2608-S06": {
+      "scorecard": [
+        18,
+        13,
+        14,
+        14,
+        10,
+        12,
+        9
+      ],
+      "patterns": [
+        "action stack",
+        "self-diagnosis question"
+      ],
+      "rejected": "static checklist",
+      "expected_signal": "question response",
+      "status": "pass"
+    },
+    "AID-2608-S07": {
+      "scorecard": [
+        19,
+        14,
+        13,
+        14,
+        10,
+        12,
+        10
+      ],
+      "patterns": [
+        "regional split",
+        "yes-no tension"
+      ],
+      "rejected": "country map without decision",
+      "expected_signal": "poll response",
+      "status": "pass"
+    },
+    "AID-2608-S08": {
+      "scorecard": [
+        18,
+        14,
+        12,
+        13,
+        10,
+        13,
+        10
+      ],
+      "patterns": [
+        "clock metaphor",
+        "open buyer question"
+      ],
+      "rejected": "generic aging metric",
+      "expected_signal": "question response",
+      "status": "pass"
+    },
+    "AID-2608-S09": {
+      "scorecard": [
+        18,
+        13,
+        13,
+        14,
+        10,
+        12,
+        10
+      ],
+      "patterns": [
+        "decision timeline",
+        "feed continuation"
+      ],
+      "rejected": "duplicate feed cover",
+      "expected_signal": "link tap",
+      "status": "pass"
+    },
+    "AID-2608-S10": {
+      "scorecard": [
+        18,
+        13,
+        13,
+        14,
+        10,
+        12,
+        10
+      ],
+      "patterns": [
+        "value curve",
+        "process poll"
+      ],
+      "rejected": "unsupported price forecast",
+      "expected_signal": "poll response",
+      "status": "pass"
+    },
+    "AID-2608-S11": {
+      "scorecard": [
+        19,
+        14,
+        14,
+        14,
+        9,
+        13,
+        10
+      ],
+      "patterns": [
+        "KPI matrix",
+        "one-choice qualification"
+      ],
+      "rejected": "open-ended generic CTA",
+      "expected_signal": "qualified KPI response",
+      "status": "pass"
+    },
+    "AID-2608-S12": {
+      "scorecard": [
+        19,
+        14,
+        12,
+        15,
+        10,
+        15,
+        10
+      ],
+      "patterns": [
+        "single conversion action",
+        "high-contrast close"
+      ],
+      "rejected": "multiple competing CTAs",
+      "expected_signal": "business display link tap",
+      "status": "pass"
+    }
   }
 }

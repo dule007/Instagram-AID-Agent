@@ -4,7 +4,7 @@
 - Format: Story 1080 × 1920
 - Tema: PITANJE ZA TIM
 - Vizual: `01-izvjestaj-ili-odluka.png`
-- Interaktivni element: `Poll: Izvještaj / Odluka`
+- Interaktivni element: `nema — story je samodostatan`
 
 ## Research gate
 
@@ -31,7 +31,7 @@
 
 ## Uputa
 
-Objaviti u terminu iz `../schedule.csv`. Instagram sticker postaviti ručno na
-označenu plavu zonu. Statički PNG ne sadrži funkcionalni poll, question ili
-link sticker. Prije objave potvrditi PNG, tekst stickera, odredište linka i
-točan termin.
+Objaviti u terminu iz `../schedule.csv`. Story ne koristi native poll, question
+ni link sticker, pa ga agent objavljuje kroz Graph API bez ručnog dovršavanja u
+aplikaciji. CTA upućuje na odgovor porukom ili na link u biu; oboje je nativno i
+ne treba sticker. Prije objave potvrditi PNG, CTA tekst i točan termin.

@@ -14,11 +14,18 @@ REPO = Path(__file__).resolve().parents[1]
 CAMPAIGN = REPO / "content" / "campaigns" / "2026-08-relaunch"
 
 
+# Story koji ne traži native sticker mora to reći doslovno ovom vrijednošću.
+# Sve drugo tumači se kao stvarni sticker i povlači manual_only.
+NO_STICKER = "nema — story je samodostatan"
+
+
 def story_sticker(brief_path: Path) -> str:
+    """Vrati opis native stickera, ili prazan string ako ga story ne treba."""
     prefix = "- Interaktivni element: `"
     for line in brief_path.read_text(encoding="utf-8").splitlines():
         if line.startswith(prefix) and line.endswith("`"):
-            return line.removeprefix(prefix).removesuffix("`")
+            value = line.removeprefix(prefix).removesuffix("`")
+            return "" if value == NO_STICKER else value
     raise ValueError(f"Story brief nema interaktivni element: {brief_path}")
 
 
@@ -48,12 +55,17 @@ def main() -> None:
                 "claims_status": "verified",
                 "status": row["status"],
             }
+            # Meta image publish traži zaključani JPEG i za feed i za story.
             publish_media = media.with_suffix(".jpg")
-            if is_feed and (CAMPAIGN / publish_media).is_file():
+            if (CAMPAIGN / publish_media).is_file():
                 item["publish_media_path"] = publish_media.as_posix()
             if not is_feed:
-                item["native_sticker"] = story_sticker(CAMPAIGN / brief)
-                item["manual_only"] = True
+                # Samo story koji stvarno traži native sticker ostaje ručan;
+                # Graph API ne zna dodati poll, question ni link sticker.
+                sticker = story_sticker(CAMPAIGN / brief)
+                if sticker:
+                    item["native_sticker"] = sticker
+                    item["manual_only"] = True
             items.append(item)
     manifest = {
         "schema_version": 1,

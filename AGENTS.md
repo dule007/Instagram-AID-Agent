@@ -60,8 +60,20 @@ Storyja agent mora izvršiti `Content Benchmark Super Task` iz
   tvrdnje, upozorenja i zaključani hash. Zatim mora stati i zatražiti izričito
   ljudsko odobrenje; izostanak odgovora nikada nije odobrenje.
 - Izmjena nakon odobrenja poništava odobrenje.
+- **Sadržaj ne smije ovisiti o native Instagram stickerima.** Poll, question,
+  quiz, slider i link sticker ne postoje u Graph API-ju, pa svaka stavka koja ih
+  traži zahtijeva ručno dovršavanje u aplikaciji i time izlazi iz autopilota.
+  Zabranjeno je i da vizual upućuje na sticker kojeg neće biti — CTA tipa
+  „odaberite u pollu ↓" nad praznim mjestom je pokvarena objava. Dopušteni
+  zamjenski pozivi na akciju: odgovor porukom (nativni story reply), link u biu
+  i upućivanje na profil. Iznimka je moguća samo uz izričitu korisničku odluku i
+  oznaku `manual_only: true` u manifestu.
 - Ne implementiraj Meta objavljivanje, ManyChat automatizaciju ili produkcijske integracije bez novog izričitog korisničkog zahtjeva.
-- Instagram lozinka se nikada ne zapisuje, koristi ni prenosi. Za buduću integraciju koristi se službena Meta autorizacija.
+- Instagram lozinka se nikada ne zapisuje, koristi ni prenosi. Za buduću
+  integraciju koristi se službena Meta autorizacija. Automatizacija preko
+  preglednika (Selenium, Playwright i slično) nad Instagram sučeljem je
+  zabranjena: traži lozinku, krši Instagramove uvjete i riskira gubitak
+  Business računa, a time i službenog Graph API pristupa.
 - Scouting preko Instagram računa smije biti samo read-only i preko službenog
   Meta API-ja. Ne zaobilazi login zid, ne scrapea privatne profile i ne
   predstavlja javne metrike drugih računa kao njihove privatne Insights podatke.

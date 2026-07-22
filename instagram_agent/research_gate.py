@@ -10,6 +10,13 @@ from datetime import date
 from pathlib import Path
 
 
+# Najdulja dopuštena valjanost benchmarka. Podignuto sa 7 na 30 dana na
+# izričit zahtjev vlasnika 2026-07-22, da autopilot može objavljivati bez
+# nadzora kroz cijeli mjesec. Trošak je stvaran: tvrdnje u odobrenom sadržaju
+# mogu zastarjeti a da to nitko ne primijeti prije objave.
+MAX_VALIDITY_DAYS = 30
+
+
 class ResearchGateError(RuntimeError):
     pass
 
@@ -41,8 +48,10 @@ def validate_research_gate(
     researched = date.fromisoformat(gate["researched_at"])
     expires = date.fromisoformat(gate["expires_at"])
     validity_days = (expires - researched).days
-    if validity_days < 0 or validity_days > 7:
-        raise ResearchGateError("Research gate mora vrijediti od 0 do najviše 7 dana.")
+    if validity_days < 0 or validity_days > MAX_VALIDITY_DAYS:
+        raise ResearchGateError(
+            f"Research gate mora vrijediti od 0 do najviše {MAX_VALIDITY_DAYS} dana."
+        )
     current = today or date.today()
     if researched > current:
         raise ResearchGateError(f"Research datum je u budućnosti: {researched}.")

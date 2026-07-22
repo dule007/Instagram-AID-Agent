@@ -15,9 +15,8 @@
       "caption_path": "",
       "media_url": "",
       "claims_status": "verified",
-      "status": "approved",
-      "native_sticker": "Poll: Izvještaj / Odluka",
-      "manual_only": true
+      "status": "draft",
+      "publish_media_path": "stories/01-izvjestaj-ili-odluka.jpg"
     },
     {
       "id": "AID-2608-F01",
@@ -43,8 +42,7 @@
       "media_url": "",
       "claims_status": "verified",
       "status": "draft",
-      "native_sticker": "Question: Gdje proces zapinje?",
-      "manual_only": true
+      "publish_media_path": "stories/02-cetiri-koraka.jpg"
     },
     {
       "id": "AID-2608-F02",
@@ -56,7 +54,8 @@
       "caption_path": "posts/02-cetiri-koraka-do-poteza.md",
       "media_url": "",
       "claims_status": "verified",
-      "status": "draft"
+      "status": "draft",
+      "publish_media_path": "posts/02-cetiri-koraka-do-poteza.jpg"
     },
     {
       "id": "AID-2608-S03",
@@ -69,8 +68,7 @@
       "media_url": "",
       "claims_status": "verified",
       "status": "draft",
-      "native_sticker": "Link: Pogledajte rješenja",
-      "manual_only": true
+      "publish_media_path": "stories/03-sto-je-izlaz.jpg"
     },
     {
       "id": "AID-2608-S04",
@@ -83,8 +81,7 @@
       "media_url": "",
       "claims_status": "verified",
       "status": "draft",
-      "native_sticker": "Poll: Dead stock / Lost sales",
-      "manual_only": true
+      "publish_media_path": "stories/04-prodaja-nula.jpg"
     },
     {
       "id": "AID-2608-F03",
@@ -96,7 +93,8 @@
       "caption_path": "posts/03-prodaja-nula-potražnja-upitnik.md",
       "media_url": "",
       "claims_status": "verified",
-      "status": "draft"
+      "status": "draft",
+      "publish_media_path": "posts/03-prodaja-nula-potražnja-upitnik.jpg"
     },
     {
       "id": "AID-2608-S05",
@@ -109,8 +107,7 @@
       "media_url": "",
       "claims_status": "verified",
       "status": "draft",
-      "native_sticker": "Poll: Lokalno / Centralno",
-      "manual_only": true
+      "publish_media_path": "stories/05-gdje-je-dio.jpg"
     },
     {
       "id": "AID-2608-F04",
@@ -122,7 +119,8 @@
       "caption_path": "posts/04-pet-odluka-po-artiklu.md",
       "media_url": "",
       "claims_status": "verified",
-      "status": "draft"
+      "status": "draft",
+      "publish_media_path": "posts/04-pet-odluka-po-artiklu.jpg"
     },
     {
       "id": "AID-2608-S06",
@@ -135,8 +133,7 @@
       "media_url": "",
       "claims_status": "verified",
       "status": "draft",
-      "native_sticker": "Question: Koja odluka nedostaje?",
-      "manual_only": true
+      "publish_media_path": "stories/06-pet-odluka.jpg"
     },
     {
       "id": "AID-2608-S07",
@@ -149,8 +146,7 @@
       "media_url": "",
       "claims_status": "verified",
       "status": "draft",
-      "native_sticker": "Poll: Da / Ne",
-      "manual_only": true
+      "publish_media_path": "stories/07-ista-drzava.jpg"
     },
     {
       "id": "AID-2608-F05",
@@ -162,7 +158,8 @@
       "caption_path": "posts/05-ista-drzava-drugaciji-asortiman.md",
       "media_url": "",
       "claims_status": "verified",
-      "status": "draft"
+      "status": "draft",
+      "publish_media_path": "posts/05-ista-drzava-drugaciji-asortiman.jpg"
     },
     {
       "id": "AID-2608-S08",
@@ -175,8 +172,7 @@
       "media_url": "",
       "claims_status": "verified",
       "status": "draft",
-      "native_sticker": "Question sticker",
-      "manual_only": true
+      "publish_media_path": "stories/08-kapital-ceka.jpg"
     },
     {
       "id": "AID-2608-F06",
@@ -188,7 +184,8 @@
       "caption_path": "posts/06-koliko-dugo-kapital-ceka.md",
       "media_url": "",
       "claims_status": "verified",
-      "status": "draft"
+      "status": "draft",
+      "publish_media_path": "posts/06-koliko-dugo-kapital-ceka.jpg"
     },
     {
       "id": "AID-2608-S09",
@@ -201,8 +198,7 @@
       "media_url": "",
       "claims_status": "verified",
       "status": "draft",
-      "native_sticker": "Link: Pročitaj objavu",
-      "manual_only": true
+      "publish_media_path": "stories/09-vrijeme-je-signal.jpg"
     },
     {
       "id": "AID-2608-S10",
@@ -215,8 +211,7 @@
       "media_url": "",
       "claims_status": "verified",
       "status": "draft",
-      "native_sticker": "Poll: Pratimo / Ručno",
-      "manual_only": true
+      "publish_media_path": "stories/10-vrijednost-se-mijenja.jpg"
     },
     {
       "id": "AID-2608-F07",
@@ -228,7 +223,8 @@
       "caption_path": "posts/07-vrijednost-nije-staticna.md",
       "media_url": "",
       "claims_status": "verified",
-      "status": "draft"
+      "status": "draft",
+      "publish_media_path": "posts/07-vrijednost-nije-staticna.jpg"
     },
     {
       "id": "AID-2608-S11",
@@ -241,8 +237,7 @@
       "media_url": "",
       "claims_status": "verified",
       "status": "draft",
-      "native_sticker": "Question sticker",
-      "manual_only": true
+      "publish_media_path": "stories/11-jedan-kpi.jpg"
     },
     {
       "id": "AID-2608-F08",
@@ -254,7 +249,8 @@
       "caption_path": "posts/08-jedan-slucaj-jedan-kpi.md",
       "media_url": "",
       "claims_status": "verified",
-      "status": "draft"
+      "status": "draft",
+      "publish_media_path": "posts/08-jedan-slucaj-jedan-kpi.jpg"
     },
     {
       "id": "AID-2608-S12",
@@ -267,8 +263,7 @@
       "media_url": "",
       "claims_status": "verified",
       "status": "draft",
-      "native_sticker": "Link: autoinsightdata.com/contact",
-      "manual_only": true
+      "publish_media_path": "stories/12-dogovorite-prikaz.jpg"
     }
   ]
 }

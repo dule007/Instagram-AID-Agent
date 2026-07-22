@@ -181,18 +181,18 @@ FEED = [
 
 
 STORIES = [
-    ("AID-2608-S01", "01-izvjestaj-ili-odluka", "PITANJE ZA TIM", ["Što vam danas", "češće stiže?"], ["IZVJEŠTAJ", "JASNA ODLUKA"], "Poll: Izvještaj / Odluka"),
-    ("AID-2608-S02", "02-cetiri-koraka", "KAKO RADI", ["Četiri koraka", "do jednog poteza"], ["SPOJI", "STANDARDIZIRAJ", "SIGNAL", "ODLUKA"], "Question: Gdje proces zapinje?"),
-    ("AID-2608-S03", "03-sto-je-izlaz", "DECISION LAYER", ["Izlaz nije", "još jedan dashboard."], ["KORIGIRAJ", "ZADRŽI", "(NE) NABAVI", "KONTROLIRAJ"], "Link: Pogledajte rješenja"),
-    ("AID-2608-S04", "04-prodaja-nula", "PARTS INTELLIGENCE", ["Prodaja = 0", "Potražnja = ?"], ["Dio nije bio dostupan", "Kupac nije ostavio prodajni trag"], "Poll: Dead stock / Lost sales"),
-    ("AID-2608-S05", "05-gdje-je-dio", "ZALIHA × LOKACIJA", ["Dio postoji.", "Ali gdje?"], ["PRAVA POSLOVNICA", "CENTRALNI LAGER", "POGREŠNA REGIJA"], "Poll: Lokalno / Centralno"),
-    ("AID-2608-S06", "06-pet-odluka", "ODLUKA PO ARTIKLU", ["Što signal", "mora vratiti?"], ["NABAVI", "ZADRŽI", "PREBACI", "CENTRALIZIRAJ", "ZAUSTAVI"], "Question: Koja odluka nedostaje?"),
-    ("AID-2608-S07", "07-ista-drzava", "REGIONALNI SIGNAL", ["Ista država.", "Isti asortiman?"], ["LOKALNI VOZNI PARK", "FITMENT", "DOSTUPNOST"], "Poll: Da / Ne"),
-    ("AID-2608-S08", "08-kapital-ceka", "STOCK AGING", ["Gdje vam kapital", "najduže čeka?"], ["ARTIKL", "VOZILO", "PORTFELJ"], "Question sticker"),
-    ("AID-2608-S09", "09-vrijeme-je-signal", "EARLY WARNING", ["Vrijeme je", "operativni signal."], ["ZADRŽI", "KORIGIRAJ", "PREMJESTI / IZAĐI"], "Link: Pročitaj objavu"),
-    ("AID-2608-S10", "10-vrijednost-se-mijenja", "VALUE SIGNAL", ["Vrijednost se", "mijenja s tržištem."], ["USPOREDIVA JEDINICA", "TRENUTAK PROCJENE", "PORTFELJNI KONTEKST"], "Poll: Pratimo / Ručno"),
-    ("AID-2608-S11", "11-jedan-kpi", "PILOT FIRST", ["Koji jedan KPI", "želite razjasniti?"], ["OBRT", "DOSTUPNOST", "VRIJEDNOST", "RIZIK"], "Question sticker"),
-    ("AID-2608-S12", "12-dogovorite-prikaz", "SLJEDEĆI KORAK", ["Jedan slučaj.", "Jedan signal.", "Jasan test."], ["DOGOVORITE POSLOVNI PRIKAZ"], "Link: autoinsightdata.com/contact"),
+    ("AID-2608-S01", "01-izvjestaj-ili-odluka", "PITANJE ZA TIM", ["Što vam danas", "češće stiže?"], ["IZVJEŠTAJ", "JASNA ODLUKA"], ""),
+    ("AID-2608-S02", "02-cetiri-koraka", "KAKO RADI", ["Četiri koraka", "do jednog poteza"], ["SPOJI", "STANDARDIZIRAJ", "SIGNAL", "ODLUKA"], ""),
+    ("AID-2608-S03", "03-sto-je-izlaz", "DECISION LAYER", ["Izlaz nije", "još jedan dashboard."], ["KORIGIRAJ", "ZADRŽI", "(NE) NABAVI", "KONTROLIRAJ"], ""),
+    ("AID-2608-S04", "04-prodaja-nula", "PARTS INTELLIGENCE", ["Prodaja = 0", "Potražnja = ?"], ["Dio nije bio dostupan", "Kupac nije ostavio prodajni trag"], ""),
+    ("AID-2608-S05", "05-gdje-je-dio", "ZALIHA × LOKACIJA", ["Dio postoji.", "Ali gdje?"], ["PRAVA POSLOVNICA", "CENTRALNI LAGER", "POGREŠNA REGIJA"], ""),
+    ("AID-2608-S06", "06-pet-odluka", "ODLUKA PO ARTIKLU", ["Što signal", "mora vratiti?"], ["NABAVI", "ZADRŽI", "PREBACI", "CENTRALIZIRAJ", "ZAUSTAVI"], ""),
+    ("AID-2608-S07", "07-ista-drzava", "REGIONALNI SIGNAL", ["Ista država.", "Isti asortiman?"], ["LOKALNI VOZNI PARK", "FITMENT", "DOSTUPNOST"], ""),
+    ("AID-2608-S08", "08-kapital-ceka", "STOCK AGING", ["Gdje vam kapital", "najduže čeka?"], ["ARTIKL", "VOZILO", "PORTFELJ"], ""),
+    ("AID-2608-S09", "09-vrijeme-je-signal", "EARLY WARNING", ["Vrijeme je", "operativni signal."], ["ZADRŽI", "KORIGIRAJ", "PREMJESTI / IZAĐI"], ""),
+    ("AID-2608-S10", "10-vrijednost-se-mijenja", "VALUE SIGNAL", ["Vrijednost se", "mijenja s tržištem."], ["USPOREDIVA JEDINICA", "TRENUTAK PROCJENE", "PORTFELJNI KONTEKST"], ""),
+    ("AID-2608-S11", "11-jedan-kpi", "PILOT FIRST", ["Koji jedan KPI", "želite razjasniti?"], ["OBRT", "DOSTUPNOST", "VRIJEDNOST", "RIZIK"], ""),
+    ("AID-2608-S12", "12-dogovorite-prikaz", "SLJEDEĆI KORAK", ["Jedan slučaj.", "Jedan signal.", "Jasan test."], ["DOGOVORITE POSLOVNI PRIKAZ"], ""),
 ]
 
 
@@ -372,16 +372,16 @@ def story_brief(item: tuple[str, str, str, list[str], list[str], str]) -> str:
 - Format: Story 1080 × 1920
 - Tema: {eyebrow}
 - Vizual: `{slug}.png`
-- Interaktivni element: `{sticker}`
+- Interaktivni element: `nema — story je samodostatan`
 
 {research_section(content_id)}
 
 ## Uputa
 
-Objaviti u terminu iz `../schedule.csv`. Instagram sticker postaviti ručno na
-označenu plavu zonu. Statički PNG ne sadrži funkcionalni poll, question ili
-link sticker. Prije objave potvrditi PNG, tekst stickera, odredište linka i
-točan termin.
+Objaviti u terminu iz `../schedule.csv`. Story ne koristi native poll, question
+ni link sticker, pa ga agent objavljuje kroz Graph API bez ručnog dovršavanja u
+aplikaciji. CTA upućuje na odgovor porukom ili na link u biu; oboje je nativno i
+ne treba sticker. Prije objave potvrditi PNG, CTA tekst i točan termin.
 '''
 
 

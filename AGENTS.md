@@ -110,6 +110,9 @@ Storyja agent mora izvršiti `Content Benchmark Super Task` iz
 ## 5. Struktura projekta
 
 - `docs/` — kanonska arhitektura, poslovna pravila, pozicioniranje, strategija, baza i workflow specifikacije;
+- `docs/online_content_kit.md` — kanonske upute i sistemski prompt za izradu
+  sadržaja preko claude.ai/ChatGPT online; online alat radi samo nacrte, uz
+  obaveznu dozvolu prije svake izmjene i bez samostalne objave;
 - `inputs_docuemtns/` — korisnički izvorni dokumenti; ne uređivati bez izričitog zahtjeva;
 - `workflows/n8n/specs/` — specifikacije i Mermaid vizuali; nisu n8n import JSON datoteke;
 - `content/objave/` — feed SVG, PNG i sadržajni briefovi;
